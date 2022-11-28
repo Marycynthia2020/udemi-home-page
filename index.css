@@ -1,0 +1,256 @@
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    gap: 20px;
+}
+.nav-logo {
+    width: 91px;
+    height: 33px;
+}
+.nav-catgories {
+    font-size: 14px;
+    height: 19px;
+}
+.input-field input {
+    width: 340px;
+    height: 20px;
+    border-radius: 50px;
+    z-index: -1;
+    padding: 10px 50px;
+    border: 0.3px solid #1C1D1F;
+    background-color: rgb(243, 243, 243)
+}
+.input-field {
+    position: relative;
+
+}
+.input-field img {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+.signup {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+.login {
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid black;
+    width: 80px;
+}
+.globe {
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px 8px;
+}
+.background-image {
+    height: 400px;
+    background-image: url(/images/udemy\ human\ background.jpg);
+    position: relative;
+    z-index: -1;
+}
+.header-p {
+    width: 414px;
+    height: 154pxpx;
+    background-color: white;
+    padding: 10px 20px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-p h1 {
+    font-size: 32px;
+    font-weight: 700px;
+}
+.header-p p {
+    font-size: 20px;
+    font-weight: 400px;
+}
+.third {
+    padding: 0px 25px;
+}
+.third h2 {
+    font-size: 32px;
+    font-weight: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.third p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.courses a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+}
+#python {
+    color: black;
+}
+.play {
+    display: flex;
+    background-color: #F7F9FA;
+    height: 85px;
+    margin: 60px 0;
+    gap: 40px;
+    
+}
+.learn-in-demand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 0 0 25px;
+}
+.learn-in-demand h5{
+    font-size: 16px;
+    font-weight: 700;
+    height: 38px;
+    width:250px;
+}
+.learn-in-demand img {
+    width: 24px;
+    height: 24px;
+} 
+.star {
+    width: 40px;
+    height: 40px;
+    background-color: #D1D7D9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#long {
+    width: 260px;
+}
+.features {
+    padding: 55px 25px;
+    background-color: #F7F9FA;
+    height: 315px;
+}
+.features h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0;
+}
+.features button {
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+    border: 1px solid black;
+}
+.gride h3 {
+    font-size: 19px;
+    font-weight: 700;
+}
+.grid a {
+    font-size: 16px;
+    font-weight: 700;
+}
+.sub-grid p {
+    font-size: 14px;
+    font-weight: 400;
+} 
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.male-instrutor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    background-color: white;
+    margin: 60px 0;
+}
+.become {
+    width: 400px;
+    width: 400px;
+}
+.male-instrutor img, .female {
+    width: 400px;
+    height: 400px;
+}
+.become h3 {
+    font-size: 32px;
+    font-weight: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.become p {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.become button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.signs {
+    height: 130px;
+    padding: 32px;
+    background-color: #F7F9FA;
+}
+.sub-signs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-signs h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0;
+}
+.sub-signs p {
+    margin: 8px 0 24px;
+}
+.symbols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    gap: 100px;
+}
+.symbols img {
+    width: 115px;
+    height: 44px;
+} 
+#biz-logo {
+    height: 32.68px;
+    width: 192px;
+}
+footer {
+    height: 298px;
+    background-color: black;
+    color: white;
+}
+.flex-footer {
+    display: flex;
+}
+.footer-grid {
+    display: grid;
+}
