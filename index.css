@@ -107,6 +107,67 @@ nav {
 #python {
     color: black;
 }
+.fourth {
+    /* height: 500px; */
+    border: 1px solid gray;
+    margin: 24px 20px;
+    padding: 10px 30px;
+    background-color: #feffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.expand h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.expand p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 800px;
+    margin: 0 0 16px;
+}
+.expand button {
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #feffff;
+}
+.videos {
+    /* height: 272px; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.learn-python {
+    display: flex;
+    flex-direction: column;
+}
+.learn-python img {
+    width: 210px;
+}
+.learn-python a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 19.2px;
+    letter-spacing: -0.2px;
+}
+.para-1 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.para-2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(203, 136, 12);
+}
+.five-stars {
+
+}
 .play {
     display: flex;
     background-color: #F7F9FA;
@@ -221,7 +282,7 @@ nav {
     align-items: center;
 }
 .sub-signs h2 {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
     margin: 0 0;
 }
@@ -245,12 +306,57 @@ nav {
 }
 footer {
     height: 298px;
-    background-color: black;
     color: white;
+    background-color: black;
+    padding: 24px 32px 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .flex-footer {
     display: flex;
+    justify-content: space-between;
 }
 .footer-grid {
     display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 160px;
+    row-gap: 15px;
+}
+.footer-grid a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.button-globe button {
+    padding: 10px;
+    border: 1px solid white;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-globe {
+    position: relative;
+}
+.button-globe img {
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.white-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 0 32px;
+}
+.white-logo img {
+    height: 33px;
+    width: 88px;
+}
+.white-logo p {
+    font-size: 12px;
 }
