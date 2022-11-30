@@ -108,16 +108,17 @@ nav {
     color: black;
 }
 .fourth {
-    /* height: 500px; */
+    height: 500px;
     border: 1px solid gray;
     margin: 24px 20px;
     padding: 10px 30px;
     background-color: #feffff;
     font-family: Arial, Helvetica, sans-serif;
 }
-.expand h2 {
+.expand h2, .viewing h2 {
     font-size: 24px;
     font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .expand p {
     font-size: 16px;
@@ -137,14 +138,21 @@ nav {
     margin-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15px;
 }
 .learn-python {
+    width: 212.67px;
+    height: 237px;
     display: flex;
     flex-direction: column;
 }
+#tutor-02 {
+    border: 1px solid black;
+    width: 211.67px;
+}
 .learn-python img {
-    width: 210px;
+    width: 212.67px;
 }
 .learn-python a {
     color: black;
@@ -154,6 +162,7 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 19.2px;
     letter-spacing: -0.2px;
+    margin-top: 5px;
 }
 .para-1 {
     font-size: 12px;
@@ -164,9 +173,37 @@ nav {
     font-size: 14px;
     font-weight: 700;
     color: rgb(203, 136, 12);
+    height: 14px;
+}
+.para-3 {
+    font-size: 12px;
+    font-weight: 200;
+    height: 14px;
+    margin: 14px 0;
 }
 .five-stars {
-
+    height: 14px;
+;
+}
+.naira {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+.para-2-flex {
+    height: 5px;
+    display: flex;
+    align-items: center;
+    width: 125px;
+    justify-content: center;
+}
+.best-seller {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgb(186, 186, 88);
+    width: 60px;
+    padding: 5px;
+    margin: 0;
 }
 .play {
     display: flex;
@@ -174,14 +211,13 @@ nav {
     height: 85px;
     margin: 60px 0;
     gap: 40px;
-    
 }
 .learn-in-demand {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin: 0 0 0 25px;
+    margin: 0 0 0 20px;
 }
 .learn-in-demand h5{
     font-size: 16px;
@@ -205,6 +241,14 @@ nav {
 #long {
     width: 260px;
 }
+.viewing {
+    height: 326px;
+    margin: 64px 0 96px;
+    padding: 0 20px;
+}
+#obey {
+   width: 232.67px;
+}   
 .features {
     padding: 55px 25px;
     background-color: #F7F9FA;
