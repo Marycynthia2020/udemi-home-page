@@ -141,6 +141,11 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 15px;
+    position: relative;
+}
+#absolute  {
+    /* position: absolute; */
+    background-color: black;
 }
 .learn-python {
     width: 212.67px;
