@@ -408,7 +408,7 @@ footer {
 .white-logo p {
     font-size: 12px;
 }
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   nav {
     width: 100%;
     gap: 1.5%;
